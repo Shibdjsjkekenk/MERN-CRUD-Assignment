@@ -1,0 +1,318 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.profile_div img{
+  max-width: 56px;
+  border-radius: 50%;
+  border: 1px solid #111;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.card-profile-stats img{
+  max-width: 86px;
+  border-radius: 50%;
+  border: 1px solid #111;
+}
+
+.email{
+  color: rgb(238,101,122);
+}
+
+.location{
+  color: blue;
+}
+
+.calendar{
+  color: rebeccapurple;
+}
+
+
+
+
+.export_btn,.search_btn {
+  background: #479C88;
+  border: none;
+}
+.export_btn:hover,.search_btn:hover{
+  background: #1f856d;
+}
+.dropdown_btn {
+  background: none !important;
+  border: none;
+  color: blue;
+  font-size: 20px;
+}
+
+.dropdown-toggle::after {
+  display: none;
+}
+
+.dropdown_btn:hover {
+  color: blue !important;
+}
+
+
+.img_parent img{
+  width: 35px;
+  border-radius: 50%;
+}
+
+.action{
+  background: none !important;
+  border: none;
+}
+.dropdown-toggle::after{
+  display: none;
+}
+
+.dropdown_btn{
+  background: none !important;
+  border: none;
+}
+
+.dots{
+  font-size: 20px;
+  margin-top: 5px;
+}
+
+
+
+
+/* login */
+
+section{
+  width: 100%;
+  padding: 10px;
+  min-height:calc(100vh - 80px);
+}
+
+section .form_data{
+  max-width: 550px;
+  margin: 25px auto;
+  padding: 35px 10px;
+  box-shadow: 0 0 15px -10px #2d3748;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form_heading{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form_data h1{
+  font-size: 34px;
+  color: #2a4365;
+}
+
+.form_data p{
+  color: #718096;
+  font-size: 15px;
+  margin-top:9px;
+}
+
+.form_data form{
+  margin-top: 45px;
+  width: 100%;
+  padding: 10px 50px;
+}
+
+.form_data form .form_input input{
+  width: 100%;
+  padding: 11px;
+  border: 1px solid #d4d0d0;
+  border-radius: 5px;
+  outline: none;
+  margin-bottom: 14px;
+  margin-top: 9px;
+  font-size: 14px;
+  
+}
+
+.form_data form .form_input label{
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.form_input .two{
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.form_data form .form_input input:focus{
+  border:2px solid rgba(66, 153, 225,0.6);
+}
+
+
+.form_data form .form_input input::placeholder{
+  color: #8694a8;
+  letter-spacing: .5px;
+  font-size: 14px;
+}
+
+.form_input .showpass{
+  position: absolute;
+  right: 0;
+  top:1px;
+  padding: 7px 10px;
+  margin-right: 5px;
+  margin-top: 12px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #2a4365;
+  background-color: #9abfe3;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+form .btn-login{
+  display:block;
+  width: 100%;
+  padding: 15px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  background-color:#1a365d;
+  color: #fff;
+  font-weight: 600;
+  font-size: 18px;
+  margin-top: 10px;
+  cursor: pointer;
+  transition: all .3s;
+}
+
+
+form .btn-login:hover{
+  background-color: #97a1b1;
+}
+
+.form_data form p{
+  text-align: center;
+  margin-top: 20px;
+}
+
+.form_data form a{
+  text-decoration: none;
+  color:#718096 ;
+  border-bottom: 2px solid #8694a8;
+}
+.avatar{
+  background: salmon;
+  font-weight: bold;
+  text-transform: capitalize;
+  height: 30px;
+  width: 32px;
+  font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+.typewriter {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: 1px; /* Adjust as needed */
+  animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
+}
